@@ -9,3 +9,10 @@ This project builds an autonomous car controlled by an Arduino Uno that utilizes
 .Breadboard and Jumper Wires  <br/>
 .Power Source (Battery Pack or DC Adapter)  <br/>
 
+# Assembly Instructions:
+
+1.Chassis Construction: Create a chassis using materials like acrylic, wood, or Lego. Ensure it can accommodate the motors, sensors, and Arduino board. <br/>
+2.Motor and Wheel Connection: Mount the DC gear motors on the chassis, attaching wheels to their shafts. The caster wheel should be placed at the front for better maneuverability. <br/>
+3.L298N Motor Driver: Connect the L298N module to the Arduino according to its datasheet. This module will control the motor direction and speed. <br/>
+4.Ultrasonic Sensor Placement: Position the three ultrasonic sensors strategically on the front of the car. One can be centered, and the other two can be placed slightly outwards for broader obstacle detection. Refer to the sensor's datasheet for proper wiring connections to the Arduino.<br/>
+
