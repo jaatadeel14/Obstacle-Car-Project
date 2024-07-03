@@ -17,7 +17,7 @@ This project builds an autonomous car controlled by an Arduino Uno that utilizes
 4.Ultrasonic Sensor Placement: Position the three ultrasonic sensors strategically on the front of the car. One can be centered, and the other two can be placed slightly outwards for broader obstacle detection. Refer to the sensor's datasheet for proper wiring connections to the Arduino.<br/>
 
 # Code Explanation:
-The Arduino code will continuously read the distance readings from the three ultrasonic sensors. Based on these readings, it will determine if an obstacle is present and in which direction. The car will then take appropriate actions to avoid the obstacle, such as turning left, right, or reversing.
+The Arduino code will continuously read the distance readings from the three ultrasonic sensors. Based on these readings, it will determine if an obstacle is present and in which direction. The car will then take appropriate actions to avoid the obstacle, such as turning left, right, or reversing.<br/>
 
 # Calibration:
 
@@ -27,11 +27,11 @@ The Arduino code will continuously read the distance readings from the three ult
 4.Test the car's behavior in different environments and fine-tune the code to optimize obstacle detection and avoidance strategies.<br/>
 
 
-#Safety:
+# Safety:
 .Use caution when operating the car, especially around people and pets.<br/>
 .Start with low motor speeds during testing to minimize the risk of damage if the car collides with obstacles.<br/>
 
-#Additional Notes:
+# Additional Notes:
 
 1.Consider implementing a safety feature that stops the car completely if all three sensors detect obstacles within a very close range.<br/>
 2.Explore advanced obstacle avoidance algorithms such as fuzzy logic or PID control for more refined navigation.<br/>
